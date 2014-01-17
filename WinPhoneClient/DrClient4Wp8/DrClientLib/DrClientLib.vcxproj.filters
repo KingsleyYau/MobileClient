@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\DrClientLib\DrClientSrc\Arithmetic.cpp">
+      <Filter>DrClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\DrClientSrc\DrCOMAuth.cpp">
+      <Filter>DrClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\DrClientSrc\DrCOMSocket.cpp">
+      <Filter>DrClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\DrClientSrc\IDrCOMAuth.cpp">
+      <Filter>DrClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\aes.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\arc4.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\asn1parse.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\asn1write.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\base64.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\bignum.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\blowfish.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\camellia.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\certs.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\cipher.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\cipher_wrap.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\ctr_drbg.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\debug.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\des.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\dhm.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\entropy.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\entropy_poll.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\error.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\gcm.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\havege.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\md.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\md_wrap.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\md2.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\md4.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\md5.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\net.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\padlock.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\pbkdf2.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\pem.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\pkcs11.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\rsa.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\sha1.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\sha2.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\sha4.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\ssl_cache.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\ssl_cli.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\ssl_srv.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\ssl_tls.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\timing.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\version.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\x509parse.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\x509write.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\library\xtea.c">
+      <Filter>polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DrClientLib\DrClientSrc\IPAddress.c">
+      <Filter>DrClient</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\DrClientLib\include\IDrCOMAuth.h">
+      <Filter>DrClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\Arithmetic.h">
+      <Filter>DrClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\DrClientInclude.h">
+      <Filter>DrClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\DrCOMAuth.h">
+      <Filter>DrClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\DrCOMDefine.h">
+      <Filter>DrClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\DrCOMSocket.h">
+      <Filter>DrClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\aes.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\arc4.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\asn1.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\asn1write.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\base64.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\bignum.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\blowfish.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\bn_mul.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\camellia.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\certs.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\cipher.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\cipher_wrap.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\config.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\ctr_drbg.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\debug.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\des.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\dhm.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\entropy.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\entropy_poll.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\error.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\gcm.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\havege.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\md.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\md_wrap.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\md2.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\md4.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\md5.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\net.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\openssl.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\padlock.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\pbkdf2.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\pem.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\pkcs11.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\rsa.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\sha1.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\sha2.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\sha4.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\ssl.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\ssl_cache.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\timing.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\version.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\x509.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\x509write.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\xtea.h">
+      <Filter>polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\NetTime.h">
+      <Filter>DrClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\IPAddress.h">
+      <Filter>DrClient</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DrClient">
+      <UniqueIdentifier>{6e5d380a-6b64-49de-8dbe-05c652e7c28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polarssl">
+      <UniqueIdentifier>{49fade66-3ed2-4f2e-bf3e-779f5b93f866}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

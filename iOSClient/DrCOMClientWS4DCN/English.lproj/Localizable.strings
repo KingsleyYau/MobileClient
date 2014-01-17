@@ -1,0 +1,41 @@
+"Username:" = "Username:";
+"Password:" = "Password:";
+"username" = "username";
+"password" = "password";
+"Login" = "Login";
+"Remember my password" = "Remember my password";
+"Sign in Automatically" = "Sign in Automatically";
+"Reconnect Automatically" = "Reconnect Automatically";
+"Used time:" = "Used time:";
+"Used flux:" = "Used flux:";
+"Min" = "Min";
+"MByte" = "MByte";
+"Logout" = "Logout";
+
+"Tips" = "Tips"; 
+"OK" = "OK";
+"Please enter your username" = "Please enter your username";
+"Please enter your password" = "Please enter your password";
+
+// 错误代码
+"DrClient_AccountBreakOff" = "This account be break off";
+"DrClient_AccountNotAllow" = "The account does not allow login base WIFI authentication";
+"DrClient_AccountTieUp" = "This account is tie up, please contact network administration";
+"DrClient_AlreadyOnline" = "This equipment already online, do not need to log in";
+"DrClient_ChargeOrFluxOver" = "This account charge be overspend or flux over";
+"DrClient_InvalidAccountOrPwd" = "Invalid account or password, please login again";
+"DrClient_IpNotAllowLogin" = "The IP does not allow login base WIFI authentication";
+"DrClient_NetworkError" = "Network connection interruption, check the network configuration please";
+"DrClient_NewAndConfirmPwdDiffer" = "The new and the confirm password are differ, can not amend";
+"DrClient_NotAllowChangePwd" = "The account does not allow change password";
+"DrClient_NotFoundDrCOM" = "Do not support login with authentication";
+"DrClient_ChangePwdSuccessed" = "Password amend successed";
+"DrClient_Success" = "Success";
+"DrClient_SystemBufferFull" = "System buffer full";
+"DrClient_TieUpCannotAmend" = "This account is tie up, can not amend";
+"DrClient_UndefineError" = "Undefine error";
+"DrClient_UsingAppointedMac" = "This account use on appointed Mac address only";
+"DrClient_UsingNAT" = "This account does not allow use NAT";
+"DrClient_UsingOnAppointedIp" = "This account use on appointed IP address only";
+
+"DrClient_StatusError" = "Network connection interruption, login again please";

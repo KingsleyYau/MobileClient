@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DrCOMWS</string>
+    <string name="Username">Username:</string>
+    <string name="Password">Password:</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+	<string name="login">Login</string>
+	<string name="logout">Logout</string>
+	<string name="OK">OK</string>
+	<string name="Cancel">Cancel</string>
+	<string name="Tips">Tips</string>
+	<string name="Min">Min</string>
+	<string name="MByte">MByte</string>
+	<string name="Used_time">"Used time:"</string>
+	<string name="Used_flux">"Used flux:"</string>
+	<string name="Remember_my_password">"Remember my password"</string>
+	<string name="Sign_in_Automatically">"Sign in Automatically"</string>
+	<string name="Do_you_want_to_exist">"Do you want to exist?"</string>
+	<string name="Please_enter_your_username">"Please enter your username"</string>
+	<string name="Please_enter_your_password">"Please enter your password"</string>
+	<string name="pleasewait">loading...</string>
+	
+	<!-- Automatic Updates -->
+    <string name="upgrade_notify_text">Datang the Diocesan version update ...</string>
+    <string name="upgrade_notify_finish_text">the the EBaby Diocesan installation package is finished downloading, click the installation</string>
+    <string name="upgrade_notify_finishandsetup_text">the the EBaby Diocesan installation package is finished downloading, click on the implementation of the notification bar installed</string>
+    <string name="upgrade_title">version released</string>
+    <string name="no_SDcard">please insert the SD card</string>
+    <string name="download_faile">download failed</string>
+    <string name="download_finish">download is complete</string>
+    <string name="upgrade_now">immediately update</string>
+    <string name="upgrade_never">after prompt</string>
+    <string name="upgrade_later">next update</string>
+
+	<!-- 错误代码翻译 -->
+	<string name="DrClient_AccountBreakOff">"This account be break off"</string>
+	<string name="DrClient_AccountNotAllow">"The account does not allow login base WIFI authentication"</string>
+	<string name="DrClient_AccountTieUp" formatted="false">"This account is tie up, please contact network administration"</string>
+	<string name="DrClient_AlreadyOnline">"This equipment already online, do not need to log in"</string>
+	<string name="DrClient_ChargeOrFluxOver">"This account charge be overspend or flux over"</string>
+	<string name="DrClient_InvalidAccountOrPwd">"Invalid account or password, please login again"</string>
+	<string name="DrClient_IpNotAllowLogin">"The IP does not allow login base WIFI authentication"</string>
+	<string name="DrClient_NetworkError">"Network connection interruption, check the network configuration please"</string>
+	<string name="DrClient_NewAndConfirmPwdDiffer">"The new and the confirm password are differ, can not amend"</string>
+	<string name="DrClient_NotAllowChangePwd">"The account does not allow change password"</string>
+	<string name="DrClient_NotFoundDrCOM">"Do not support login with authentication"</string>
+	<string name="DrClient_PwdAmendSuccessed">"Password amend successed"</string>
+	<string name="DrClient_Success">"Success"</string>
+	<string name="DrClient_SystemBufferFull">"System buffer full"</string>
+	<string name="DrClient_TieUpCannotAmend">"This account is tie up, can not amend"</string>
+	<string name="DrClient_UndefineError">"Undefine error"</string>
+	<string name="DrClient_UsingAppointedMac">"This account use on appointed Mac address only"</string>
+	<string name="DrClient_UsingNAT">"This account does not allow use NAT"</string>
+	<string name="DrClient_UsingOnAppointedIp">"This account use on appointed IP address only"</string>
+</resources>

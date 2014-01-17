@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="DrClient4Wp8.CustomProgressBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="Auto"  d:DesignWidth="Auto">
+    
+    <!--<Grid x:Name="LayoutRoot" Background="Black" Opacity="0.2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Center" Height="65" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="395">
+          
+            <ProgressBar HorizontalAlignment="Center" Height="10" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="350"/>
+            <TextBlock HorizontalAlignment="Center"  VerticalAlignment="Center" TextWrapping="Wrap" Text="TextBlock"/>
+
+        </StackPanel>
+
+
+
+    </Grid>-->
+    <Popup x:Name="ProgressPopup" Width="Auto" Height="Auto" IsOpen="False" HorizontalAlignment="Left"
+                   VerticalAlignment="Top" d:LayoutOverrides="Width, HorizontalMargin" Margin="0,0,0,0">
+
+        <Grid x:Name="LayoutRoot" Background="Black" Opacity="0.8" Height="Auto" Width="Auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Center" Height="65" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="395">
+            <ProgressBar Foreground="Green" IsIndeterminate="True" Name="ProgressBar1" HorizontalAlignment="Center" Height="10" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="380"/>
+            <TextBlock Name="Content" HorizontalAlignment="Center"  VerticalAlignment="Center" TextWrapping="Wrap" Text="TextBlock"/>
+
+        </StackPanel>
+
+
+
+    </Grid>
+    </Popup>
+</UserControl>

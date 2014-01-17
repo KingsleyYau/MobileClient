@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_weight="1.6"
+        android:layout_height="0dip">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="1.6"
+        android:layout_height="0dip" android:orientation="vertical">
+        <LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:layout_weight="1" android:orientation="horizontal">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout6" android:layout_weight="1"></LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout7" android:layout_weight="0.87" android:gravity="center_vertical|center_horizontal">
+                <TextView android:layout_height="wrap_content" android:layout_gravity="left" android:layout_width="wrap_content" android:id="@+id/tx_username" android:textColor="@color/black" android:text="@string/Username" android:singleLine="true" android:textSize="14sp"></TextView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout15" android:layout_weight="1.2"></LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout9" android:layout_weight="0.7" android:gravity="center_vertical|center_horizontal">
+                <!--<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/ed_username" android:textColor="@color/black" android:hint="@string/username" android:singleLine="true" android:textSize="12sp" android:maxLength="16"></EditText>-->
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout9" android:layout_weight="0.7" android:gravity="center_vertical|center_horizontal" android:orientation="vertical">
+                	<RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout1" android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal">
+						<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/ed_username" android:textColor="@color/black" android:hint="@string/username" android:singleLine="true" android:textSize="14sp" android:maxLength="32"></EditText>
+	                    <LinearLayout android:layout_alignParentLeft="true" android:id="@+id/linearLayout8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+							<LinearLayout android:id="@+id/linearLayout8" android:layout_width="fill_parent" android:layout_height="12dip"></LinearLayout>
+							<LinearLayout android:layout_weight="1" android:layout_height="0dip" android:id="@+id/linearLayout8" android:layout_width="fill_parent">
+								<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout17" android:layout_width="wrap_content" android:layout_weight="0.1">
+								</LinearLayout>
+								<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout17" android:layout_width="wrap_content" android:layout_weight="1">
+									<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tx_time" android:singleLine="true" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/blue" android:gravity="center"></TextView>
+								</LinearLayout>
+								<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout18" android:layout_width="wrap_content" android:layout_weight="0.2" android:baselineAligned="true">
+									<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="right" android:id="@+id/tx_min" android:singleLine="true" android:textSize="16sp" android:textColor="@color/black" android:text="@string/Min" android:gravity="right"></TextView>
+								</LinearLayout>
+							</LinearLayout>
+    	                </LinearLayout>
+        	        </RelativeLayout>
+            	</LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout10" android:layout_weight="1"></LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout5" android:layout_width="fill_parent" android:layout_weight="1" android:orientation="horizontal">
+        	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout11" android:layout_weight="1"></LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout12" android:layout_weight="0.87" android:gravity="center_vertical|center_horizontal">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="left" android:id="@+id/tx_password" android:textColor="@color/black" android:text="@string/Password" android:singleLine="true" android:textSize="14sp"></TextView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout16" android:layout_weight="1.2"></LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout13" android:layout_weight="0.7" android:gravity="center_vertical|center_horizontal">
+                <!--<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/ed_password" android:hint="@string/password" android:password="true" android:singleLine="true" android:textSize="12sp" android:maxLength="16"></EditText>-->
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout9" android:layout_weight="0.7" android:gravity="center_vertical|center_horizontal" android:orientation="vertical">
+                	<RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout1" android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal">
+						<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/ed_password" android:hint="@string/password" android:password="true" android:singleLine="true" android:textSize="14sp" android:maxLength="32"></EditText>
+	                    <LinearLayout android:layout_alignParentLeft="true" android:id="@+id/linearLayout8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+							<LinearLayout android:id="@+id/linearLayout8" android:layout_width="fill_parent" android:layout_height="12dip"></LinearLayout>
+							<LinearLayout android:layout_weight="1" android:layout_height="0dip" android:id="@+id/linearLayout8" android:layout_width="fill_parent">
+								<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout17" android:layout_width="wrap_content" android:layout_weight="0.1">
+								</LinearLayout>
+								<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout17" android:layout_width="wrap_content" android:layout_weight="1">
+									<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:singleLine="true" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/blue" android:id="@+id/tx_flux" android:gravity="center"></TextView>
+								</LinearLayout>
+								<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout18" android:layout_width="wrap_content" android:layout_weight="0.2" android:baselineAligned="true">
+									<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="right" android:singleLine="true" android:textSize="16sp" android:textColor="@color/black" android:id="@+id/tx_mbyte" android:text="@string/MByte" android:gravity="right"></TextView>
+								</LinearLayout>
+							</LinearLayout>
+    	                </LinearLayout>
+        	        </RelativeLayout>
+            	</LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout14" android:layout_weight="1"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.8"
+        android:layout_height="0dip" android:baselineAligned="true" android:gravity="center_vertical|center_horizontal">
+        <LinearLayout android:orientation="vertical" android:layout_height="fill_parent" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_weight="1"></LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_height="fill_parent" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_weight="0.9" android:gravity="center_vertical|center_horizontal">
+            <Button android:layout_width="fill_parent" android:id="@+id/bt_ok" android:text="@string/login" android:textStyle="bold" android:textColor="@color/light_green" android:textSize="18sp" android:layout_height="wrap_content"></Button>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_height="fill_parent" android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:layout_weight="1"></LinearLayout>
+	</LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_weight="1.3"
+        android:layout_height="0dip">
+		<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout20" android:layout_width="fill_parent" android:layout_weight="1" android:orientation="horizontal">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout21" android:layout_weight="1"></LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout23" android:layout_weight="0.35">
+                <CheckBox android:gravity="center_vertical|center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="right" android:id="@+id/cb_keep_password" android:textColor="@color/light_blue" android:text="@string/Remember_my_password" android:textSize="16sp" android:typeface="normal"></CheckBox>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout25" android:layout_weight="1"></LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout5" android:layout_width="fill_parent" android:layout_weight="1" android:orientation="horizontal">
+        	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout26" android:layout_weight="1"></LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout27" android:layout_weight="0.35">
+                <CheckBox android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal" android:layout_width="fill_parent" android:id="@+id/cb_sign" android:textColor="@color/light_blue" android:layout_gravity="right" android:text="@string/Sign_in_Automatically" android:textSize="16sp"></CheckBox>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/linearLayout28" android:layout_weight="1"></LinearLayout>
+        </LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_weight="2.0"
+        android:layout_height="0dip">
+	</LinearLayout>
+</LinearLayout>

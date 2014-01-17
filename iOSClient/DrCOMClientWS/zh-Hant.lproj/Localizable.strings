@@ -1,0 +1,41 @@
+"Username:" = "帳  號：";
+"Password:" = "密  碼：";
+"username" = "帳  號";
+"password" = "密  碼";
+"Login" = "登   錄";
+"Remember my password" = "保存密碼";
+"Sign in Automatically" = "自動登錄";
+"Reconnect Automatically" = "自動重連";
+"Used time:" = "使用時長：";
+"Used flux:" = "使用流量：";
+"Min" = "分鐘";
+"MByte" = "兆";
+"Logout" = "注   銷";
+
+"Tips" = "提示"; 
+"OK" = "確  定";
+"Please enter your username" = "請輸入帳號";
+"Please enter your password" = "請輸入密碼";
+
+// 错误代码
+"DrClient_AccountBreakOff" = "此帳號已停用";
+"DrClient_AccountNotAllow" = "該帳號不允許使用WiFi認證登錄";
+"DrClient_AccountTieUp" = "此帳號正在使用中，請聯系網絡管理員";
+"DrClient_AlreadyOnline" = "此設備已在線，不需要再登錄";
+"DrClient_ChargeOrFluxOver" = "此帳號費用超支或時長流量超過限制";
+"DrClient_InvalidAccountOrPwd" = "無效的帳號或密碼，請重新登錄";
+"DrClient_IpNotAllowLogin" = "此IP不允許使用WiFi認證登錄";
+"DrClient_NetworkError" = "網絡連接中斷，請檢查網絡配置";
+"DrClient_NewAndConfirmPwdDiffer" = "新設定的密碼與確認密碼不同，修改失敗";
+"DrClient_NotAllowChangePwd" = "此IP不允許更改密碼";
+"DrClient_NotFoundDrCOM" = "不支持認證登錄";
+"DrClient_ChangePwdSuccessed" = "密碼修改成功";
+"DrClient_Success" = "成功";
+"DrClient_SystemBufferFull" = "系統緩存已滿";
+"DrClient_TieUpCannotAmend" = "此帳戶被占用，不能修改";
+"DrClient_UndefineError" = "未知錯誤";
+"DrClient_UsingAppointedMac" = "此帳號只能使用指定的MAC登錄";
+"DrClient_UsingNAT" = "此帳號不允許使用 NAT";
+"DrClient_UsingOnAppointedIp" = "此帳號只能使用指定的IP登錄";
+
+"DrClient_StatusError" = "網絡中斷，請重新登錄";

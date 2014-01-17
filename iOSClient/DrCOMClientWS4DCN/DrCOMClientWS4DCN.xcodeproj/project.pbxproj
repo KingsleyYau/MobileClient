@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131564F6135888F3000E8E40 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 131564F5135888F3000E8E40 /* logo.png */; };
+		13156522135897A6000E8E40 /* sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 13156521135897A6000E8E40 /* sm.png */; };
+		13156526135897AF000E8E40 /* 512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 13156525135897AF000E8E40 /* 512x512.png */; };
+		1315653C13589C2B000E8E40 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1315653B13589C2B000E8E40 /* background.png */; };
+		133D6A7915150546003479C0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 133D6A7815150546003479C0 /* libz.dylib */; };
+		134F99871361E04A00FD47D1 /* ICO1.png in Resources */ = {isa = PBXBuildFile; fileRef = 134F99861361E04A00FD47D1 /* ICO1.png */; };
+		135FDB511366C89B00C256CD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 135FDB501366C89B00C256CD /* Localizable.strings */; };
+		1D3623260D0F684500981E51 /* DrCOMClientWSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DrCOMClientWSAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* DrCOMClientWSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DrCOMClientWSViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		5DEC9A29180435EA00942059 /* ICO1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC9A28180435EA00942059 /* ICO1@2x.png */; };
+		CA560EF1175ECE3900780958 /* DrCOMClientWSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA560EDD175ECE3900780958 /* DrCOMClientWSViewController.m */; };
+		CA560EF2175ECE3900780958 /* SettingFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA560EE0175ECE3900780958 /* SettingFileController.m */; };
+		CA560EF3175ECE3900780958 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CA560EE2175ECE3900780958 /* Utilities.m */; };
+		CA560EF4175ECE3900780958 /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = CA560EE5175ECE3900780958 /* IPAddress.c */; };
+		CA560EF5175ECE3900780958 /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = CA560EE8175ECE3900780958 /* NSDataEx.m */; };
+		CA560EF6175ECE3900780958 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CA560EEA175ECE3900780958 /* GTMBase64.m */; };
+		CA560EF7175ECE3900780958 /* WiFiChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = CA560EED175ECE3900780958 /* WiFiChecker.m */; };
+		CA560EF8175ECE3900780958 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CA560EEF175ECE3900780958 /* Reachability.m */; };
+		CA560EFA175ECE5900780958 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA560EF9175ECE5900780958 /* SystemConfiguration.framework */; };
+		CA560F03175ED09A00780958 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA560F02175ED09A00780958 /* Default-568h@2x.png */; };
+		CA560F04175ED15E00780958 /* libDrClientLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA560EDB175ECE3000780958 /* libDrClientLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA560EDA175ECE3000780958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA560ED6175ECE3000780958 /* DrClientLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CA24DE911752EC29002F5D41;
+			remoteInfo = DrClientLib;
+		};
+		CA560EFF175ECFD200780958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA560ED6175ECE3000780958 /* DrClientLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CA24DE901752EC29002F5D41;
+			remoteInfo = DrClientLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131564F5135888F3000E8E40 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
+		13156521135897A6000E8E40 /* sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sm.png; path = images/sm.png; sourceTree = "<group>"; };
+		13156525135897AF000E8E40 /* 512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 512x512.png; path = images/512x512.png; sourceTree = "<group>"; };
+		1315653B13589C2B000E8E40 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = images/background.png; sourceTree = "<group>"; };
+		13289FFC149B46F20029BD04 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		133D6A7815150546003479C0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		134F99861361E04A00FD47D1 /* ICO1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ICO1.png; path = images/ICO1.png; sourceTree = "<group>"; };
+		135FDB4E1366C87100C256CD /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		135FDB531366C8ED00C256CD /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
+		139B2E61138431FC00F6B7AB /* DrCOMWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrCOMWS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DrCOMClientWSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrCOMClientWSAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DrCOMClientWSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrCOMClientWSAppDelegate.m; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* DrCOMClientWSViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrCOMClientWSViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* DrCOMClientWS4DCN_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrCOMClientWS4DCN_Prefix.pch; sourceTree = "<group>"; };
+		5DEC9A28180435EA00942059 /* ICO1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ICO1@2x.png"; path = "images/ICO1@2x.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DrCOMClientWS4DCN-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DrCOMClientWS4DCN-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CA560ED6175ECE3000780958 /* DrClientLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DrClientLib.xcodeproj; path = ../DrClientLib/DrClientLib.xcodeproj; sourceTree = "<group>"; };
+		CA560EDD175ECE3900780958 /* DrCOMClientWSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrCOMClientWSViewController.m; sourceTree = "<group>"; };
+		CA560EDE175ECE3900780958 /* SettingFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingFileController.h; sourceTree = "<group>"; };
+		CA560EDF175ECE3900780958 /* DrCOMClientWSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrCOMClientWSViewController.h; sourceTree = "<group>"; };
+		CA560EE0175ECE3900780958 /* SettingFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingFileController.m; sourceTree = "<group>"; };
+		CA560EE2175ECE3900780958 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		CA560EE3175ECE3900780958 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		CA560EE4175ECE3900780958 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		CA560EE5175ECE3900780958 /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
+		CA560EE6175ECE3900780958 /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		CA560EE7175ECE3900780958 /* NSDataEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataEx.h; sourceTree = "<group>"; };
+		CA560EE8175ECE3900780958 /* NSDataEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataEx.m; sourceTree = "<group>"; };
+		CA560EE9175ECE3900780958 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		CA560EEA175ECE3900780958 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		CA560EED175ECE3900780958 /* WiFiChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiChecker.m; sourceTree = "<group>"; };
+		CA560EEE175ECE3900780958 /* WiFiChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiChecker.h; sourceTree = "<group>"; };
+		CA560EEF175ECE3900780958 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CA560EF0175ECE3900780958 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CA560EF9175ECE5900780958 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CA560F02175ED09A00780958 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA560F04175ED15E00780958 /* libDrClientLib.a in Frameworks */,
+				CA560EFA175ECE5900780958 /* SystemConfiguration.framework in Frameworks */,
+				133D6A7915150546003479C0 /* libz.dylib in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA560EDC175ECE3900780958 /* Control */,
+				1D3623240D0F684500981E51 /* DrCOMClientWSAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DrCOMClientWSAppDelegate.m */,
+				CA560EE1175ECE3900780958 /* Login */,
+				CA560EEB175ECE3900780958 /* View */,
+				CA560EEC175ECE3900780958 /* WiFiChecker */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		131135D5135C7C14002667E6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5DEC9A28180435EA00942059 /* ICO1@2x.png */,
+				13156525135897AF000E8E40 /* 512x512.png */,
+				134F99861361E04A00FD47D1 /* ICO1.png */,
+				13156521135897A6000E8E40 /* sm.png */,
+				131564F5135888F3000E8E40 /* logo.png */,
+				1315653B13589C2B000E8E40 /* background.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139B2E61138431FC00F6B7AB /* DrCOMWS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				CA560ED6175ECE3000780958 /* DrClientLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				131135D5135C7C14002667E6 /* Images */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DrCOMClientWS4DCN_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA560F02175ED09A00780958 /* Default-568h@2x.png */,
+				2899E5210DE3E06400AC0155 /* DrCOMClientWSViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* DrCOMClientWS4DCN-Info.plist */,
+				135FDB501366C89B00C256CD /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				133D6A7815150546003479C0 /* libz.dylib */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				CA560EF9175ECE5900780958 /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA560ED7175ECE3000780958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA560EDB175ECE3000780958 /* libDrClientLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA560EDC175ECE3900780958 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				CA560EDF175ECE3900780958 /* DrCOMClientWSViewController.h */,
+				CA560EDD175ECE3900780958 /* DrCOMClientWSViewController.m */,
+				CA560EDE175ECE3900780958 /* SettingFileController.h */,
+				CA560EE0175ECE3900780958 /* SettingFileController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		CA560EE1175ECE3900780958 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CA560EE2175ECE3900780958 /* Utilities.m */,
+				CA560EE3175ECE3900780958 /* GTMBase64.h */,
+				CA560EE4175ECE3900780958 /* GTMDefines.h */,
+				CA560EE5175ECE3900780958 /* IPAddress.c */,
+				CA560EE6175ECE3900780958 /* IPAddress.h */,
+				CA560EE7175ECE3900780958 /* NSDataEx.h */,
+				CA560EE8175ECE3900780958 /* NSDataEx.m */,
+				CA560EE9175ECE3900780958 /* Utilities.h */,
+				CA560EEA175ECE3900780958 /* GTMBase64.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CA560EEB175ECE3900780958 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA560EEC175ECE3900780958 /* WiFiChecker */ = {
+			isa = PBXGroup;
+			children = (
+				CA560EED175ECE3900780958 /* WiFiChecker.m */,
+				CA560EEE175ECE3900780958 /* WiFiChecker.h */,
+				CA560EEF175ECE3900780958 /* Reachability.m */,
+				CA560EF0175ECE3900780958 /* Reachability.h */,
+			);
+			path = WiFiChecker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DrCOMClientWS4DCN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DrCOMClientWS4DCN" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA560F00175ECFD200780958 /* PBXTargetDependency */,
+			);
+			name = DrCOMClientWS4DCN;
+			productName = DrCOMClientWS;
+			productReference = 139B2E61138431FC00F6B7AB /* DrCOMWS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DrCOMClientWS4DCN" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				zh_CN,
+				"zh-Hant",
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CA560ED7175ECE3000780958 /* Products */;
+					ProjectRef = CA560ED6175ECE3000780958 /* DrClientLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DrCOMClientWS4DCN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CA560EDB175ECE3000780958 /* libDrClientLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDrClientLib.a;
+			remoteRef = CA560EDA175ECE3000780958 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* DrCOMClientWSViewController.xib in Resources */,
+				131564F6135888F3000E8E40 /* logo.png in Resources */,
+				13156522135897A6000E8E40 /* sm.png in Resources */,
+				13156526135897AF000E8E40 /* 512x512.png in Resources */,
+				1315653C13589C2B000E8E40 /* background.png in Resources */,
+				134F99871361E04A00FD47D1 /* ICO1.png in Resources */,
+				135FDB511366C89B00C256CD /* Localizable.strings in Resources */,
+				CA560F03175ED09A00780958 /* Default-568h@2x.png in Resources */,
+				5DEC9A29180435EA00942059 /* ICO1@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DrCOMClientWSAppDelegate.m in Sources */,
+				CA560EF1175ECE3900780958 /* DrCOMClientWSViewController.m in Sources */,
+				CA560EF2175ECE3900780958 /* SettingFileController.m in Sources */,
+				CA560EF3175ECE3900780958 /* Utilities.m in Sources */,
+				CA560EF4175ECE3900780958 /* IPAddress.c in Sources */,
+				CA560EF5175ECE3900780958 /* NSDataEx.m in Sources */,
+				CA560EF6175ECE3900780958 /* GTMBase64.m in Sources */,
+				CA560EF7175ECE3900780958 /* WiFiChecker.m in Sources */,
+				CA560EF8175ECE3900780958 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA560F00175ECFD200780958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DrClientLib;
+			targetProxy = CA560EFF175ECFD200780958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		135FDB501366C89B00C256CD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				135FDB4E1366C87100C256CD /* English */,
+				135FDB531366C8ED00C256CD /* zh_CN */,
+				13289FFC149B46F20029BD04 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		130383E1137966C300CD6327 /* Debug_NAT */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Keqin Su (VS64P4WFJA)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DO_NOT_ALLOW_NAT;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PREBINDING = NO;
+				PRODUCT_NAME = DrCOMWS;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F084D1C-59D7-41DF-A855-B365B140ACE6";
+				SDKROOT = iphoneos;
+			};
+			name = Debug_NAT;
+		};
+		130383E2137966C300CD6327 /* Debug_NAT */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 波 姜 (J3B7L2KBMT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: samson fan (P8E8N38V38)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DrCOMClientWS4DCN_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../DrClientLib/DrClientLib\"",
+					"\"$(SRCROOT)/../../DrClientLib/\"/**",
+				);
+				INFOPLIST_FILE = "DrCOMClientWS4DCN-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = DrCOMWS;
+				PROVISIONING_PROFILE = "C23087A8-55B4-4A8C-B491-FF1F91BF4CC5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B28E375E-7C99-407B-9E97-99A127BF1E39";
+			};
+			name = Debug_NAT;
+		};
+		135AFCEF13AFA6B8000F41F3 /* Release_NAT_Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guangzhou Hotspot Software Co.,Ltd.";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DO_NOT_ALLOW_NAT;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PRODUCT_NAME = DrCOMWS;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4E328040-559B-4BDF-860C-C27F57DFE00F";
+				SDKROOT = iphoneos;
+			};
+			name = Release_NAT_Distribution;
+		};
+		135AFCF013AFA6B8000F41F3 /* Release_NAT_Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 波 姜 (J3B7L2KBMT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guangzhou Hotspot Software Co.,Ltd.";
+				COPY_PHASE_STRIP = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DrCOMClientWS4DCN_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../DrClientLib/DrClientLib\"",
+					"\"$(SRCROOT)/../../DrClientLib/\"/**",
+				);
+				INFOPLIST_FILE = "DrCOMClientWS4DCN-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = DrCOMWS;
+				PROVISIONING_PROFILE = "C23087A8-55B4-4A8C-B491-FF1F91BF4CC5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "33322F46-ECF9-46EC-BB22-F879C94B5B98";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release_NAT_Distribution;
+		};
+		139B2EF01384389500F6B7AB /* Release_NAT */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Keqin Su (VS64P4WFJA)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DO_NOT_ALLOW_NAT;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PRODUCT_NAME = DrCOMWS;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F084D1C-59D7-41DF-A855-B365B140ACE6";
+				SDKROOT = iphoneos;
+			};
+			name = Release_NAT;
+		};
+		139B2EF11384389500F6B7AB /* Release_NAT */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 波 姜 (J3B7L2KBMT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 恒 邱 (7255WBKD55)";
+				COPY_PHASE_STRIP = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DrCOMClientWS4DCN_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../DrClientLib/DrClientLib\"",
+					"\"$(SRCROOT)/../../DrClientLib/\"/**",
+				);
+				INFOPLIST_FILE = "DrCOMClientWS4DCN-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = DrCOMWS;
+				PROVISIONING_PROFILE = "C23087A8-55B4-4A8C-B491-FF1F91BF4CC5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B28E375E-7C99-407B-9E97-99A127BF1E39";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release_NAT;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 波 姜 (J3B7L2KBMT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 波 姜 (J3B7L2KBMT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DrCOMClientWS4DCN_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../DrClientLib/DrClientLib\"",
+					"\"$(SRCROOT)/../../DrClientLib/\"/**",
+				);
+				INFOPLIST_FILE = "DrCOMClientWS4DCN-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = DrCOMWS;
+				PROVISIONING_PROFILE = "C23087A8-55B4-4A8C-B491-FF1F91BF4CC5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C23087A8-55B4-4A8C-B491-FF1F91BF4CC5";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 波 姜 (J3B7L2KBMT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 波 姜 (J3B7L2KBMT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DrCOMClientWS4DCN_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../DrClientLib/DrClientLib\"",
+					"\"$(SRCROOT)/../../DrClientLib/\"/**",
+				);
+				INFOPLIST_FILE = "DrCOMClientWS4DCN-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = DrCOMWS;
+				PROVISIONING_PROFILE = "C23087A8-55B4-4A8C-B491-FF1F91BF4CC5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C23087A8-55B4-4A8C-B491-FF1F91BF4CC5";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Keqin Su (VS64P4WFJA)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PREBINDING = NO;
+				PRODUCT_NAME = DrCOMWS;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F084D1C-59D7-41DF-A855-B365B140ACE6";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Keqin Su (VS64P4WFJA)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PRODUCT_NAME = DrCOMWS;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F084D1C-59D7-41DF-A855-B365B140ACE6";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DrCOMClientWS4DCN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				130383E2137966C300CD6327 /* Debug_NAT */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				139B2EF11384389500F6B7AB /* Release_NAT */,
+				135AFCF013AFA6B8000F41F3 /* Release_NAT_Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release_NAT_Distribution;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DrCOMClientWS4DCN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				130383E1137966C300CD6327 /* Debug_NAT */,
+				C01FCF5008A954540054247B /* Release */,
+				139B2EF01384389500F6B7AB /* Release_NAT */,
+				135AFCEF13AFA6B8000F41F3 /* Release_NAT_Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release_NAT_Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6a4efeb6-05c1-4ed1-8ea2-aa8723aee1b2}</ProjectGuid>
+    <RootNamespace>SSLStaticLib</RootNamespace>
+    <DefaultLanguage>zh-CN</DefaultLanguage>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ProjectName>DrCLientLib</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <IntDir>..\object\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</IntDir>
+    <OutDir>..\lib\$(Platform)\$(Configuration)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <IntDir>..\object\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</IntDir>
+    <OutDir>..\lib\$(Platform)\$(Configuration)</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;POLARSSL_NO_PLATFORM_ENTROPY;_WIN32_WP8;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>..\..\..\DrClientLib\include;..\..\..\DrClientLib\polarssl_inc;..\..\..\DrClientLib\DrClientSrc</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;POLARSSL_NO_PLATFORM_ENTROPY;NDEBUG;_WIN32_WP8;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>..\..\..\DrClientLib\include;..\..\..\DrClientLib\polarssl_inc;..\..\..\DrClientLib\DrClientSrc</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\Arithmetic.h" />
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\DrClientInclude.h" />
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\DrCOMAuth.h" />
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\DrCOMDefine.h" />
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\DrCOMSocket.h" />
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\IPAddress.h" />
+    <ClInclude Include="..\..\..\DrClientLib\DrClientSrc\NetTime.h" />
+    <ClInclude Include="..\..\..\DrClientLib\include\IDrCOMAuth.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\aes.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\arc4.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\asn1.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\asn1write.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\base64.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\bignum.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\blowfish.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\bn_mul.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\camellia.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\certs.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\cipher.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\cipher_wrap.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\config.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\ctr_drbg.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\debug.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\des.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\dhm.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\entropy.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\entropy_poll.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\error.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\gcm.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\havege.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\md.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\md2.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\md4.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\md5.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\md_wrap.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\net.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\openssl.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\padlock.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\pbkdf2.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\pem.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\pkcs11.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\rsa.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\sha1.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\sha2.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\sha4.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\ssl.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\ssl_cache.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\timing.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\version.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\x509.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\x509write.h" />
+    <ClInclude Include="..\..\..\DrClientLib\polarssl_inc\polarssl\xtea.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\DrClientLib\DrClientSrc\Arithmetic.cpp" />
+    <ClCompile Include="..\..\..\DrClientLib\DrClientSrc\DrCOMAuth.cpp" />
+    <ClCompile Include="..\..\..\DrClientLib\DrClientSrc\DrCOMSocket.cpp" />
+    <ClCompile Include="..\..\..\DrClientLib\DrClientSrc\IDrCOMAuth.cpp" />
+    <ClCompile Include="..\..\..\DrClientLib\DrClientSrc\IPAddress.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\aes.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\arc4.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\asn1parse.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\asn1write.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\base64.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\bignum.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\blowfish.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\camellia.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\certs.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\cipher.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\cipher_wrap.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\ctr_drbg.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\debug.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\des.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\dhm.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\entropy.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\entropy_poll.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\error.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\gcm.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\havege.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\md.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\md2.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\md4.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\md5.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\md_wrap.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\net.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\padlock.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\pbkdf2.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\pem.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\pkcs11.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\rsa.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\sha1.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\sha2.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\sha4.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\ssl_cache.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\ssl_cli.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\ssl_srv.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\ssl_tls.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\timing.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\version.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\x509parse.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\x509write.c" />
+    <ClCompile Include="..\..\..\DrClientLib\library\xtea.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Windows">
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="platform.winmd">
+      <IsWinMDFile>true</IsWinMDFile>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsPhone\v$(TargetPlatformVersion)\Microsoft.Cpp.WindowsPhone.$(TargetPlatformVersion).targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DCN</string>
+    <string name="Username">帐  号：</string>
+    <string name="Password">密  码：</string>
+    <string name="username">帐  号</string>
+    <string name="password">密  码</string>
+	<string name="login">登   录</string>
+	<string name="logout">注   销</string>
+	<string name="OK">确  定</string>
+	<string name="Cancel">取  消</string>
+	<string name="Tips">提示</string>
+	<string name="Min">分钟</string>
+	<string name="MByte">兆</string>
+	<string name="Used_time">"使用时长："</string>
+	<string name="Used_flux">"使用流量："</string>
+	<string name="Remember_my_password">"保存密码"</string>
+	<string name="Sign_in_Automatically">"自动登录"</string>
+	<string name="Do_you_want_to_exist">"是否退出程序？"</string>
+	<string name="Please_enter_your_username">"请输入帐号"</string>
+	<string name="Please_enter_your_password">"请输入密码"</string>
+	<string name="pleasewait">请稍等...</string>
+	
+	<!-- 自动更新 -->
+    <string name="upgrade_notify_text">DrCOMWS下载中...</string>
+    <string name="upgrade_notify_finish_text">DrCOMWS已经下载完成, 点击安装</string>
+    <string name="upgrade_notify_finishandsetup_text">DrCOMWS已经下载完成, 点击通知栏安装</string>
+    <string name="upgrade_title">版本发布</string>
+    <string name="no_SDcard">请先插入SD卡</string>
+    <string name="download_faile">下载失败</string>
+    <string name="download_finish">下载完成</string>
+    <string name="upgrade_now">马上更新</string>
+    <string name="upgrade_never">以后不提示</string>
+    <string name="upgrade_later">下次再更新</string>
+
+	<!-- 错误代码翻译 -->
+	<string name="DrClient_AccountBreakOff">"此帐号已停用"</string>
+	<string name="DrClient_AccountNotAllow">"该帐号不允许使用WiFi认证登录"</string>
+	<string name="DrClient_AccountTieUp" formatted="false">"此帐号正在使用中，请联系网络管理员"</string>
+	<string name="DrClient_AlreadyOnline">"此设备已在线，不需要再登录"</string>
+	<string name="DrClient_ChargeOrFluxOver">"此帐号费用超支或时长流量超过限制"</string>
+	<string name="DrClient_InvalidAccountOrPwd">"无效的帐号或密码，请重新登录"</string>
+	<string name="DrClient_IpNotAllowLogin">"此IP不允许使用WiFi认证登录"</string>
+	<string name="DrClient_NetworkError">"网络连接中断，请检查网络配置"</string>
+	<string name="DrClient_NewAndConfirmPwdDiffer">"新设定的密码与确认密码不同，修改失败"</string>
+	<string name="DrClient_NotAllowChangePwd">"此IP不允许更改密码"</string>
+	<string name="DrClient_NotFoundDrCOM">"不支持认证登录"</string>
+	<string name="DrClient_PwdAmendSuccessed">"密码修改成功"</string>
+	<string name="DrClient_Success">"成功"</string>
+	<string name="DrClient_SystemBufferFull">"系统缓存已满"</string>
+	<string name="DrClient_TieUpCannotAmend">"此帐户被占用，不能修改"</string>
+	<string name="DrClient_UndefineError">"未知错误"</string>
+	<string name="DrClient_UsingAppointedMac">"此帐号只能使用指定的MAC登录"</string>
+	<string name="DrClient_UsingNAT">"此帐号不允许使用 NAT"</string>
+	<string name="DrClient_UsingOnAppointedIp">"此帐号只能使用指定的IP登录"</string>
+</resources>

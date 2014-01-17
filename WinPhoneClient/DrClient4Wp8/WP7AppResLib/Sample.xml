@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- The DLL files will be created in a directory named after your Project -->
+<!-- If you need to, you can put multiple projects into one config file -->
+
+<Projects>
+
+	<Project Name="DrClient4Wp8">
+
+		<!--
+			LocaleID: Hex code of the selected language's Locale ID, assigned by Microsoft (see Locale_ID_List.txt)
+	
+			Name: Name of the locale, for yourself, the generator doesn't use this attribute
+	
+			AppTitle: The title in the application list (max 32 characters)
+	
+			TileText: The title on the application tile pinned to the Start screen (max 32 characters)
+		-->
+
+		<!-- Neutral name of the app, normally this should be the same as US-English -->
+	
+		<Language Name="Neutral">
+			<AppTitle>DrCOMWS</AppTitle>
+			<TileText>DrCOMWS</TileText>
+		</Language>
+
+		<!-- US English and other localized versions -->
+	
+		<Language Name="English (United States)" LocaleID="0409">
+			<AppTitle>DrCOMWS</AppTitle>
+			<TileText>DrCOMWS</TileText>
+		</Language>
+	
+		<Language Name="English (United Kingdom)" LocaleID="0809">
+			<AppTitle>DrCOMWS</AppTitle>
+			<TileText>DrCOMWS</TileText>
+		</Language>
+	
+		<Language Name="zh-CN" LocaleID="0804">
+			<AppTitle>DrCOM客户端</AppTitle>
+			<TileText>DrCOM客户端</TileText>
+		</Language>
+	
+		<Language Name="zh-TW" LocaleID="0404">
+			<AppTitle>DrCOM客戶端</AppTitle>
+			<TileText>DrCOM客戶端</TileText>
+		</Language>
+
+		<!-- Languages supported from 7.1 (add your own) -->
+		
+		<Language Name="zh-HK" LocaleID="0C04">
+			<AppTitle>DrCOM客戶端</AppTitle>
+			<TileText>DrCOM客戶端</TileText>
+		</Language>
+
+	</Project>
+
+</Projects>
